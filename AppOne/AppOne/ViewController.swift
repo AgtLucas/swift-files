@@ -21,6 +21,7 @@ class ViewController: UIViewController {
         label.frame = CGRectMake(150, 150, 60, 60)
         label.text = "0"
         self.view.addSubview(label)
+        self.label = label
 
 
         var button = UIButton()
