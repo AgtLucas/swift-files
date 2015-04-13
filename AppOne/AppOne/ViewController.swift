@@ -29,9 +29,14 @@ class ViewController: UIViewController {
         button.setTitleColor(UIColor.blueColor(), forState: .Normal)
         self.view.addSubview(button)
 
+        button.addTarget(self, action: "incrementCount", forControlEvents: UIControlEvents.TouchUpInside)
+
     }
 
-    
+    func incrementCount() {
+        self.count++
+        self.label.text = "\(self.count)"
+    }
 
 }
 
