@@ -24,6 +24,9 @@
                                 <variation key="widthClass=compact" fixedFrame="YES">
                                     <rect key="frame" x="177" y="285" width="46" height="30"/>
                                 </variation>
+                                <connections>
+                                    <action selector="experiment" destination="vXZ-lx-hvc" eventType="touchUpInside" id="kEm-5w-cs3"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
