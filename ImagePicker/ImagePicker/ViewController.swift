@@ -10,11 +10,6 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    @IBAction func experiment() {
-        let nextController = UIImagePickerController()
-        self.presentViewController(nextController, animated: true, completion:nil)
-    }
-
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -23,6 +18,22 @@ class ViewController: UIViewController {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    }
+    
+    @IBAction func experiment() {
+        
+        let controller = UIAlertController()
+        controller.title = "Test alert"
+        controller.message = "This is just a test, yo!"
+        
+        let okAction = UIAlertAction(title: "Ok", style: UIAlertActionStyle.Default) {
+            action in self.dismissViewControllerAnimated(true, completion: nil)
+        }
+        
+        controller.addAction(okAction)
+        self.presentViewController(controller, animated: true, completion: nil)
+        
+        
     }
 
 
