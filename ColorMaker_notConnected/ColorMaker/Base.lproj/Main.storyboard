@@ -62,6 +62,9 @@
                                             <constraint firstAttribute="width" constant="49" id="C0A-SY-ijk"/>
                                             <constraint firstAttribute="height" constant="31" id="oNn-Wk-0EM"/>
                                         </constraints>
+                                        <connections>
+                                            <action selector="changeColorComponent" destination="vXZ-lx-hvc" eventType="valueChanged" id="duj-7g-3BA"/>
+                                        </connections>
                                     </switch>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Blue" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vfO-MJ-TIi">
                                         <rect key="frame" x="17" y="124" width="73" height="21"/>
@@ -130,6 +133,11 @@
                             <constraint firstItem="ES2-hS-6pV" firstAttribute="top" secondItem="23a-9A-dZi" secondAttribute="bottom" constant="47" id="jWp-Pa-WYS"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="blueControl" destination="mrj-g1-6nX" id="RQf-LV-qF3"/>
+                        <outlet property="greenControl" destination="aoV-z2-sOS" id="XMq-E0-Tta"/>
+                        <outlet property="redControl" destination="zZ7-a9-FSD" id="gm2-rj-o8p"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
