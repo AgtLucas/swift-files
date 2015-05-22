@@ -135,6 +135,7 @@
                     </view>
                     <connections>
                         <outlet property="blueControl" destination="mrj-g1-6nX" id="RQf-LV-qF3"/>
+                        <outlet property="colorView" destination="AjB-H9-6TC" id="Djp-e8-Vgq"/>
                         <outlet property="greenControl" destination="aoV-z2-sOS" id="XMq-E0-Tta"/>
                         <outlet property="redControl" destination="zZ7-a9-FSD" id="gm2-rj-o8p"/>
                     </connections>
