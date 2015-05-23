@@ -26,7 +26,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="qUR-90-axl" kind="modal" id="FJr-f8-LCw"/>
+                                    <segue destination="qUR-90-axl" kind="modal" identifier="rollDice" id="FJr-f8-LCw"/>
                                 </connections>
                             </button>
                         </subviews>
