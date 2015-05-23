@@ -26,7 +26,6 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="rollTheDice" destination="vXZ-lx-hvc" eventType="touchUpInside" id="Kdg-CK-dE2"/>
                                     <segue destination="qUR-90-axl" kind="modal" id="FJr-f8-LCw"/>
                                 </connections>
                             </button>
