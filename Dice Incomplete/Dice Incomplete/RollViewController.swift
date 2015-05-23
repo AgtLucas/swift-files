@@ -22,7 +22,7 @@ class RollViewController: UIViewController {
 
     @IBAction func rollTheDice() {
         
-        
+        performSegueWithIdentifier("rollDice", sender: self)
         
     }
     
