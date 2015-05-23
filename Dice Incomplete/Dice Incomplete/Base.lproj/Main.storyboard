@@ -36,9 +36,6 @@
                             <constraint firstAttribute="centerY" secondItem="0CI-ro-g3x" secondAttribute="centerY" id="icH-2t-PDN"/>
                         </constraints>
                     </view>
-                    <connections>
-                        <segue destination="qUR-90-axl" kind="modal" identifier="rollDice" id="D1O-jN-CMs"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
