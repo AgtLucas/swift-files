@@ -13,6 +13,7 @@
 		A02C5C3C1B1142CD00773CA6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A02C5C3B1B1142CD00773CA6 /* Images.xcassets */; };
 		A02C5C3F1B1142CD00773CA6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A02C5C3D1B1142CD00773CA6 /* LaunchScreen.xib */; };
 		A02C5C4B1B1142CD00773CA6 /* JokenpoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A02C5C4A1B1142CD00773CA6 /* JokenpoTests.swift */; };
+		A039009A1B1243DA0028AC56 /* ResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A03900991B1243DA0028AC56 /* ResultsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		A02C5C441B1142CD00773CA6 /* JokenpoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JokenpoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A02C5C491B1142CD00773CA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A02C5C4A1B1142CD00773CA6 /* JokenpoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokenpoTests.swift; sourceTree = "<group>"; };
+		A03900991B1243DA0028AC56 /* ResultsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ResultsViewController.swift; path = ../ResultsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		A02C5C311B1142CC00773CA6 /* Jokenpo */ = {
 			isa = PBXGroup;
 			children = (
+				A03900991B1243DA0028AC56 /* ResultsViewController.swift */,
 				A02C5C341B1142CC00773CA6 /* AppDelegate.swift */,
 				A02C5C361B1142CC00773CA6 /* ViewController.swift */,
 				A02C5C381B1142CD00773CA6 /* Main.storyboard */,
@@ -214,6 +217,7 @@
 			files = (
 				A02C5C371B1142CC00773CA6 /* ViewController.swift in Sources */,
 				A02C5C351B1142CC00773CA6 /* AppDelegate.swift in Sources */,
+				A039009A1B1243DA0028AC56 /* ResultsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -409,6 +413,7 @@
 				A02C5C501B1142CD00773CA6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A02C5C511B1142CD00773CA6 /* Build configuration list for PBXNativeTarget "JokenpoTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +422,7 @@
 				A02C5C531B1142CD00773CA6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
