@@ -18,7 +18,13 @@
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="axW-17-cPM">
                                 <rect key="frame" x="179" y="251" width="37" height="32"/>
-                                <state key="normal" image="rock">
+                                <state key="normal" title="Rock" image="rock">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cKu-du-3xT">
+                                <rect key="frame" x="277" y="170" width="37" height="32"/>
+                                <state key="normal" title="Paper" image="paper">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
@@ -49,6 +55,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="paper" width="37" height="32"/>
         <image name="rock" width="37" height="32"/>
     </resources>
 </document>
