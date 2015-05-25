@@ -21,5 +21,23 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
         </scene>
+        <!--Results View Controller-->
+        <scene sceneID="7TW-hf-5sj">
+            <objects>
+                <viewController id="21I-oz-mg5" customClass="ResultsViewController" customModule="Jokenpo" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="lvF-C1-Tu1"/>
+                        <viewControllerLayoutGuide type="bottom" id="o4f-lW-ZGL"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="R8k-2G-WNC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="WLI-Ly-hpT" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="446" y="1084"/>
+        </scene>
     </scenes>
 </document>
