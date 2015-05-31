@@ -18,7 +18,9 @@ class ChoiceViewController: UIViewController {
     @IBAction private func playRock(sender: UIButton) {
         let resultsViewController = self.storyboard?.instantiateViewControllerWithIdentifier("ResultsViewController") as! ResultsViewController
         
-//        resultsViewController.userChoice = 
+        resultsViewController.userChoice = getUserShape(sender)
+        
+        presentViewController(resultsViewController, animated: true, completion: nil)
     }
     
     
@@ -32,7 +34,7 @@ class ChoiceViewController: UIViewController {
         if segue.identifier == "play" {
             let resultsViewController = segue.destinationViewController as! ResultsViewController
             
-//            resultsViewController.userChoice
+            resultsViewController.userChoice = getUserShape(sender as! UIButton)
         }
     }
     
