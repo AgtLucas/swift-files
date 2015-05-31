@@ -69,6 +69,7 @@
                         <outlet property="paperButton" destination="cKu-du-3xT" id="Gal-HG-h1u"/>
                         <outlet property="rockButton" destination="axW-17-cPM" id="Mlg-ZU-eIs"/>
                         <outlet property="scissorButton" destination="0GA-G5-6O9" id="7r5-hw-bu5"/>
+                        <outlet property="scissorsButton" destination="0GA-G5-6O9" id="ztj-EF-HKP"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>

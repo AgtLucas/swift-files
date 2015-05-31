@@ -12,7 +12,7 @@ class ChoiceViewController: UIViewController {
 
     @IBOutlet weak var rockButton: UIButton!
     @IBOutlet weak var paperButton: UIButton!
-    @IBOutlet weak var scissorButton: UIButton!
+    @IBOutlet weak var scissorsButton: UIButton!
     
     
     override func viewDidLoad() {
