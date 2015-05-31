@@ -26,7 +26,7 @@ class ChoiceViewController: UIViewController {
     
     // MARK: - Segue with Code Approach
     @IBAction private func playPaper(sender: UIButton) {
-        performSegueWithIdentifier("ResultsViewController", sender: sender)
+        performSegueWithIdentifier("play", sender: sender)
     }
     
     // MARK: - Segue
