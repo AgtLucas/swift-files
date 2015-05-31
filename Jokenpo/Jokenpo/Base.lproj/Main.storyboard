@@ -16,19 +16,23 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="axW-17-cPM">
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="axW-17-cPM">
                                 <rect key="frame" x="221" y="284" width="37" height="32"/>
                                 <state key="normal" title="Rock" image="rock">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cKu-du-3xT">
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cKu-du-3xT">
                                 <rect key="frame" x="282" y="228" width="37" height="32"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="32" id="7Lp-lK-3rI"/>
+                                    <constraint firstAttribute="width" constant="37" id="JpJ-dX-s8b"/>
+                                </constraints>
                                 <state key="normal" title="Paper" image="paper">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0GA-G5-6O9">
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0GA-G5-6O9">
                                 <rect key="frame" x="343" y="284" width="37" height="32"/>
                                 <state key="normal" title="Scissors" image="scissors">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -42,6 +46,13 @@
                             </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="0GA-G5-6O9" firstAttribute="leading" secondItem="cKu-du-3xT" secondAttribute="trailing" constant="24" id="b8A-ew-Hr4"/>
+                            <constraint firstItem="0GA-G5-6O9" firstAttribute="top" secondItem="cKu-du-3xT" secondAttribute="bottom" constant="24" id="cgB-IS-ria"/>
+                            <constraint firstItem="axW-17-cPM" firstAttribute="top" secondItem="cKu-du-3xT" secondAttribute="bottom" constant="24" id="d02-ZF-dTA"/>
+                            <constraint firstItem="cKu-du-3xT" firstAttribute="leading" secondItem="axW-17-cPM" secondAttribute="trailing" constant="24" id="e2g-oy-ftx"/>
+                            <constraint firstAttribute="centerX" secondItem="cKu-du-3xT" secondAttribute="centerX" id="mkH-An-DRu"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
