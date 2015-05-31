@@ -58,6 +58,11 @@
                     <view key="view" contentMode="scaleToFill" id="R8k-2G-WNC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="tie" translatesAutoresizingMaskIntoConstraints="NO" id="8YR-6J-meU">
+                                <rect key="frame" x="200" y="200" width="200" height="200"/>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                 </viewController>
@@ -70,5 +75,6 @@
         <image name="paper" width="37" height="32"/>
         <image name="rock" width="37" height="32"/>
         <image name="scissors" width="37" height="32"/>
+        <image name="tie" width="91" height="100"/>
     </resources>
 </document>
