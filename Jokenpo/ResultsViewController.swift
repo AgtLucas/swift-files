@@ -28,7 +28,32 @@ class ResultsViewController: UIViewController {
         let randomIndex = Int(arc4random() % 3)
         opponentChoice = choices[randomIndex]
         
-//        displayResult()
+        displayResult()
+    }
+    
+    // MARK: - UI
+    
+    private func displayResult() {
+        var imageName: String
+        var text: String
+        var youWon: Bool = false
+        let matchup = "\(userChoice) vs. \(opponentChoice)"
+        
+        // Handle the tie!
+        if userChoice == opponentChoice {
+            resultImage.image = UIImage(named: "tie")
+            resultLabel.text = "\(matchup): it's a tie!"
+        }
+        
+        // If you're the winneerrrrrrr!
+        switch (userChoice) {
+            case "Rock":
+                youWon = opponentChoice == "Scissors"
+            case "Paper":
+                youWon = opponentChoice == "Rock"
+            default:
+                youWon = opponentChoice == "Paper"
+        }
     }
     
 
