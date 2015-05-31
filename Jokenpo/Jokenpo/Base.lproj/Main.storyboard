@@ -46,7 +46,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Let's Play" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TZu-rg-nFO">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Let's Play" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TZu-rg-nFO">
                                 <rect key="frame" x="260" y="340" width="80" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -55,6 +55,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstAttribute="centerX" secondItem="TZu-rg-nFO" secondAttribute="centerX" id="Bhx-tG-5EW"/>
                             <constraint firstItem="0GA-G5-6O9" firstAttribute="leading" secondItem="cKu-du-3xT" secondAttribute="trailing" constant="24" id="b8A-ew-Hr4"/>
                             <constraint firstItem="TZu-rg-nFO" firstAttribute="top" secondItem="axW-17-cPM" secondAttribute="bottom" constant="24" id="cUJ-Ie-CgE"/>
                             <constraint firstItem="0GA-G5-6O9" firstAttribute="top" secondItem="cKu-du-3xT" secondAttribute="bottom" constant="24" id="cgB-IS-ria"/>
