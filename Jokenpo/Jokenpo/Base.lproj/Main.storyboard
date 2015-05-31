@@ -51,6 +51,9 @@
                                 <state key="normal" title="Scissors" image="scissors">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <segue destination="21I-oz-mg5" kind="presentation" id="n9M-7r-iZ9"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Let's Play" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TZu-rg-nFO">
                                 <rect key="frame" x="260" y="340" width="80" height="21"/>
@@ -74,9 +77,7 @@
                     <connections>
                         <outlet property="paperButton" destination="cKu-du-3xT" id="Gal-HG-h1u"/>
                         <outlet property="rockButton" destination="axW-17-cPM" id="Mlg-ZU-eIs"/>
-                        <outlet property="scissorButton" destination="0GA-G5-6O9" id="7r5-hw-bu5"/>
                         <outlet property="scissorsButton" destination="0GA-G5-6O9" id="ztj-EF-HKP"/>
-                        <segue destination="21I-oz-mg5" kind="presentation" identifier="play" id="8Io-mG-bye"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
