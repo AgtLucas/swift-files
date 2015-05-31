@@ -86,7 +86,7 @@
         <!--Results View Controller-->
         <scene sceneID="7TW-hf-5sj">
             <objects>
-                <viewController id="21I-oz-mg5" customClass="ResultsViewController" customModule="Jokenpo" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ResultsViewController" id="21I-oz-mg5" customClass="ResultsViewController" customModule="Jokenpo" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="lvF-C1-Tu1"/>
                         <viewControllerLayoutGuide type="bottom" id="o4f-lW-ZGL"/>
