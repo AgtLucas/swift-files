@@ -25,6 +25,9 @@
                                 <state key="normal" title="Rock" image="rock">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="playRock:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="uWA-o3-RQq"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cKu-du-3xT">
                                 <rect key="frame" x="282" y="228" width="37" height="32"/>
