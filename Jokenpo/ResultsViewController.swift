@@ -54,6 +54,15 @@ class ResultsViewController: UIViewController {
             default:
                 youWon = opponentChoice == "Paper"
         }
+        
+        // Create text
+        if youWon {
+            text = "You Won! \(matchup)"
+            imageName = "\(userChoice)-\(opponentChoice)".lowercaseString
+        } else {
+            text = "You Lost! \(matchup)"
+            imageName = "\(opponentChoice)-\(userChoice)".lowercaseString
+        }
     }
     
 
