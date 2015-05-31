@@ -27,6 +27,7 @@ class ChoiceViewController: UIViewController {
         performSegueWithIdentifier("ResultsViewController", sender: sender)
     }
     
+    // MARK: - Segue
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         if segue.identifier == "play" {
             let resultsViewController = segue.destinationViewController as! ResultsViewController
@@ -34,7 +35,17 @@ class ChoiceViewController: UIViewController {
 //            resultsViewController.userChoice
         }
     }
-
+    
+    // MARK: - Utilities
+    private func getUserShape(sender: UIButton) -> String {
+        if sender == rockButton {
+            return "Rock"
+        } else if sender == paperButton {
+            return "Paper"
+        } else {
+            return "Scissors"
+        }
+    }
 
 }
 
