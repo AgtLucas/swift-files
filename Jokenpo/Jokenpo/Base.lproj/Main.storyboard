@@ -16,13 +16,17 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="axW-17-cPM">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="axW-17-cPM">
                                 <rect key="frame" x="221" y="284" width="37" height="32"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="32" id="eWn-Nq-4vh"/>
+                                    <constraint firstAttribute="width" constant="37" id="zcZ-Qn-7kX"/>
+                                </constraints>
                                 <state key="normal" title="Rock" image="rock">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cKu-du-3xT">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cKu-du-3xT">
                                 <rect key="frame" x="282" y="228" width="37" height="32"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="32" id="7Lp-lK-3rI"/>
@@ -32,13 +36,17 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0GA-G5-6O9">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0GA-G5-6O9">
                                 <rect key="frame" x="343" y="284" width="37" height="32"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="32" id="Gqp-ux-BdS"/>
+                                    <constraint firstAttribute="width" constant="37" id="Z1G-PH-Y2r"/>
+                                </constraints>
                                 <state key="normal" title="Scissors" image="scissors">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Let's Play" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TZu-rg-nFO">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Let's Play" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TZu-rg-nFO">
                                 <rect key="frame" x="260" y="340" width="80" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -48,10 +56,12 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="0GA-G5-6O9" firstAttribute="leading" secondItem="cKu-du-3xT" secondAttribute="trailing" constant="24" id="b8A-ew-Hr4"/>
+                            <constraint firstItem="TZu-rg-nFO" firstAttribute="top" secondItem="axW-17-cPM" secondAttribute="bottom" constant="24" id="cUJ-Ie-CgE"/>
                             <constraint firstItem="0GA-G5-6O9" firstAttribute="top" secondItem="cKu-du-3xT" secondAttribute="bottom" constant="24" id="cgB-IS-ria"/>
                             <constraint firstItem="axW-17-cPM" firstAttribute="top" secondItem="cKu-du-3xT" secondAttribute="bottom" constant="24" id="d02-ZF-dTA"/>
                             <constraint firstItem="cKu-du-3xT" firstAttribute="leading" secondItem="axW-17-cPM" secondAttribute="trailing" constant="24" id="e2g-oy-ftx"/>
                             <constraint firstAttribute="centerX" secondItem="cKu-du-3xT" secondAttribute="centerX" id="mkH-An-DRu"/>
+                            <constraint firstAttribute="centerY" secondItem="axW-17-cPM" secondAttribute="centerY" id="ut0-Os-wvu"/>
                         </constraints>
                     </view>
                 </viewController>
