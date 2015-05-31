@@ -63,7 +63,14 @@ class ResultsViewController: UIViewController {
             text = "You Lost! \(matchup)"
             imageName = "\(opponentChoice)-\(userChoice)".lowercaseString
         }
+        
+        // Update the UI components
+        resultImage.image = UIImage(named: imageName)
+        resultLabel.text = text
     }
     
+    @IBAction private func playAgain() {
+        dismissViewControllerAnimated(true, completion: nil)
+    }
 
 }
