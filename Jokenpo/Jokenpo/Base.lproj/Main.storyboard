@@ -76,6 +76,7 @@
                         <outlet property="rockButton" destination="axW-17-cPM" id="Mlg-ZU-eIs"/>
                         <outlet property="scissorButton" destination="0GA-G5-6O9" id="7r5-hw-bu5"/>
                         <outlet property="scissorsButton" destination="0GA-G5-6O9" id="ztj-EF-HKP"/>
+                        <segue destination="21I-oz-mg5" kind="presentation" identifier="play" id="8Io-mG-bye"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
