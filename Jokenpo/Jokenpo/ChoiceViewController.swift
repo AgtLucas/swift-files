@@ -14,11 +14,25 @@ class ChoiceViewController: UIViewController {
     @IBOutlet weak var paperButton: UIButton!
     @IBOutlet weak var scissorsButton: UIButton!
     
-    
+    // MARK: - Programmatic Approach
     @IBAction private func playRock(sender: UIButton) {
-        let resultViewController = self.storyboard?.instantiateViewControllerWithIdentifier("ResultsViewController") as! ResultsViewController
+        let resultsViewController = self.storyboard?.instantiateViewControllerWithIdentifier("ResultsViewController") as! ResultsViewController
         
-//        resultViewController.userChoice = getUserShape()
+//        resultsViewController.userChoice = 
+    }
+    
+    
+    // MARK: - Segue with Code Approach
+    @IBAction private func playPaper(sender: UIButton) {
+        performSegueWithIdentifier("ResultsViewController", sender: sender)
+    }
+    
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        if segue.identifier == "play" {
+            let resultsViewController = segue.destinationViewController as! ResultsViewController
+            
+//            resultsViewController.userChoice
+        }
     }
 
 
